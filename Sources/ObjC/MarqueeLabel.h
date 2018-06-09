@@ -199,6 +199,13 @@ IB_DESIGNABLE
 
 @property (nonatomic, assign) IBInspectable CGFloat scrollDuration;
 
+/**
+ Force scrolling.
+ 
+ Default is `NO`.
+ */
+@property (nonatomic, assign) IBInspectable BOOL forceScrolling;
+
 
 /** Defines the rate at which the label will scroll, in pixels per second.
  
